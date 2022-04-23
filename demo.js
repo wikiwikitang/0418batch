@@ -1,6 +1,7 @@
 const btn = document.getElementById('test-id');
 btn.onclick = () => {
   debugger;
+  console.log('This is a conflict');
   alert('This is a Test');
 };
 

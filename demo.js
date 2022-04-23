@@ -1,7 +1,6 @@
 const btn = document.getElementById('test-id');
 btn.onclick = () => {
-  debugger;
-  alert('This is a Test');
+  console.log('This is a Test');
 };
 
 // btn.addEventListener('click', () => {

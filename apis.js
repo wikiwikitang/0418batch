@@ -50,7 +50,7 @@ const consumeApi2 = async () => {
     const resp = await mockApi(true);
     console.log(resp);
   } catch (e) {
-    // error hendling code here
+    // error handling code here
     console.log(e);
   }
 };
